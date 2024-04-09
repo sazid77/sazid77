@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arabian_Night</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+ 
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h3>Arabian_Night</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+                <button type="button" class="btn btn-primary mx-2 " data-bs-toggle="modal" data-bs-target="#loginModal" >Login</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signModal">SignUp</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- signup modal start from here -->
+      <!-- Modal -->
+<div class="modal fade" id="signModal" tabindex="-1" aria-labelledby="signModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Get an Arabian_Night account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="cexampleInputPassword1" class="form-label"> Confirm Password</label>
+            <input type="password" class="form-control" id="cexampleInputPassword1">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Create account</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+     
+     
+<!-- login modal start from here -->
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login to Arabian_Night account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">LogIn</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+      
+
+      
+      
+
+
+      <!-- coursole start from here  -->
+      
+        <div id="carouselExampleCaptions" class="carousel slide ">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="temp3.jpg" class="d-block w-100 image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Welcome to Arabian_Night</h2>
+                  <p>Where hospitality reigns and traditions unite</p>
+                  <a  style="text-decoration: none;"  href="https://en.wikipedia.org/wiki/Blue_Mosque,_Istanbul"><button type="button" class="btn btn-success mx-4">Explore</button></a>
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="temp1.jpg"    class="d-block w-100 image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2> The Holy Quran</h2>
+                  <p>A timeless beacon of wisdom, guidance, and peace</p>
+                  <a  style="text-decoration: none;"  href="https://en.wikipedia.org/wiki/Quran"><button type="button" class="btn btn-success mx-4">Explore</button></a>
+                      
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="temp4.jpg" class="d-block w-100 image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Mecca</h2>
+                  <p>A sacred symbol of unity, devotion, and spiritual pilgrimage.</p>
+                  <a  style="text-decoration: none;" href="https://en.wikipedia.org/wiki/Mecca"><button type="button" class="btn btn-success mx-4">Explore</button></a>
+                    
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <!-- card strat from here -->
+          <div class="container my-4 ">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary-emphasis">Prayer</strong>
+                      <h3 class="mb-0">Namaz</h3>
+                      <div class="mb-1 text-body-secondary">April 09</div>
+                      <p class="card-text mb-auto">Namaz, also known as Salah, is the Islamic ritual prayer performed by Muslims five times a day.</p>
+                      <a href="https://en.wikipedia.org/wiki/Salah#:~:text=Salah%2C%20also%20known%20as%20namaz,and%20Sunnah%20are%20typically%20recited." >
+                        Continue reading
+                        <!-- <svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                     <img src="temp.jpg" class="bd-placeholder-img" width="300" height="250" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success-emphasis">Muhammad</strong>
+                      <h3 class="mb-0">Medina</h3>
+                      <div class="mb-1 text-body-secondary">April 09</div>
+                      <p class="mb-auto">It was the home of the prophet Muhammad, the founder of Islam. Medina is also where Muhammad died.</p>
+                      <a href="https://en.wikipedia.org/wiki/Medina" >
+                        Continue reading
+                        <!-- <svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="temp2.jpg" class="bd-placeholder-img" width="300" height="250" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+          <!-- 2 card of row -->
+
+          <div class="container my-4 ">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-primary-emphasis">Quran</strong>
+                      <h3 class="mb-0">Tilawa </h3>
+                      <div class="mb-1 text-body-secondary">April 09</div>
+                      <p class="card-text mb-auto">Tilawa is an act in which whole person,soul, heart,mind,tongue and body participates.
+                        </p>
+                      <a href="temp8.jpg" >
+                        Continue reading
+                        <!-- <svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                     <img src="temp8.jpg" class="bd-placeholder-img img-fluid" width="360" height="360" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <strong class="d-inline-block mb-2 text-success-emphasis">Forgiveness</strong>
+                      <h3 class="mb-0">Ramzan</h3>
+                      <div class="mb-1 text-body-secondary">April 09</div>
+                      <p class="mb-auto">Ramadan is the ninth month of the Islamic calendar,observed by Muslims worldwide as a month of fasting</p>
+                      <a href="https://en.wikipedia.org/wiki/Ramadan" >
+                        Continue reading
+                        <!-- <svg class="bi"><use xlink:href="#chevron-right"></use></svg> -->
+                      </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="temp9.jpg" class="bd-placeholder-img" width="290" height="240" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+          <!-- footer code start from here -->
+          <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Arabian_Night</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Topics</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>socialMedia</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Youtube</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Linkedin</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GitHub</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                  </ul>
+                </div>
+          
+                
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to Arabian_Night</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="bnbshk">
+                      <button class="btn btn-primary" type="button" fdprocessedid="cnn7q8">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. All rights reserved. sazid khan</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+          
+
+         
+
+              
+
+              
+
+
+      
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
